@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+	<!-- ログイン -->
+	<servlet>
+		<servlet-name>test</servlet-name>
+		<servlet-class>TestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/sampleTest</url-pattern>
+	</servlet-mapping>
+
+	<!-- 検索 -->
+	<servlet>
+		<servlet-name>select</servlet-name>
+		<servlet-class>Select</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>select</servlet-name>
+		<url-pattern>/sampleSelect</url-pattern>
+	</servlet-mapping>
+
+	<!-- 削除 -->
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>Delete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/sampleDelete</url-pattern>
+	</servlet-mapping>
+
+	<!-- 追加 -->
+	<servlet>
+		<servlet-name>insert</servlet-name>
+		<servlet-class>Insert</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>insert</servlet-name>
+		<url-pattern>/sampleInsert</url-pattern>
+	</servlet-mapping>
+
+	<!-- 更新情報 -->
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>Update</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/sampleUpdate</url-pattern>
+	</servlet-mapping>
+
+	<!-- 更新 -->
+	<servlet>
+		<servlet-name>updateInput</servlet-name>
+		<servlet-class>UpdateInput</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>updateInput</servlet-name>
+		<url-pattern>/sampleUpdateInput</url-pattern>
+	</servlet-mapping>
+
+</web-app>

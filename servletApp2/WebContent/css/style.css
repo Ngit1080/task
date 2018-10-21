@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    color:#505050;
+}
+
+/*------- 入力画面 ------*/
+
+h1{
+	border-left: 10px solid #696969;
+    border-bottom: 1px solid #696969;
+    padding: 10px;
+    width: 80%;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 5px 15px 5px 15px;
+    margin: 3px;
+}
+
+th.header {
+    width: 125px;
+    text-align: right;
+}
+
+element.style {
+    width: 100%;
+}
+
+td.btnArea {
+    text-align: right;
+}
+
+.loginInfo {
+    font-size: 9pt;
+    color: #008080;
+}
+
+input.readOnly {
+    background-color: #696969;
+    color: #ffffff;
+}
+
+/*------ エラーメッセージ ------*/
+.error {
+/*     background-color: #ffb6c1; */
+    color: #ff0000;
+}
+
+.msgBox {
+    font-weight: bold;
+    text-align: center;
+/*     border: 1px solid #696969; */
+    width: 500px;
+}

@@ -14,5 +14,6 @@ public class Frame extends JFrame  {
 		Screen screen = new Screen("神経衰弱");
 		screen.setPanel();
 		screen.setVisible(true);
+
 	}
 }
